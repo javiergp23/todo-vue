@@ -12,8 +12,8 @@ import ModalComponent from '@/components/ModalComponent.vue'
 </script>
 
 <template>
-    <div class="container col-sm-6">
-        <h1 class="formTitle mb-5 mt-5">
+    <div class="container col-sm-9">
+        <h1 class="formTitle mb-4 mt-2">
             Dashboard
         </h1>
         <table class="table tabla-crud table-dark table-striped">
@@ -43,10 +43,16 @@ import ModalComponent from '@/components/ModalComponent.vue'
                     <td>Jacob</td>
                     <td>Thornton</td>
                     <td>@fat</td>
+                    <td>@fat</td>
+                    <td>@fat</td>
+                    <td>@fat</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
                     <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
+                    <td>@twitter</td>
                     <td>@twitter</td>
                 </tr>
             </tbody>

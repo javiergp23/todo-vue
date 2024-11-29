@@ -9,14 +9,16 @@ export default {
         <span class="shadow"></span>
         <span class="edge"></span>
         <div class="front">
-            <span>Agregar Tarea</span>
+            <span>Agregar</span>
         </div>
     </button>
 </template>
 
 <style scoped>
     .button {
-  position: relative;
+      
+  margin: 0 0 0 63%;
+  position: fixed;
   border: none;
   background: transparent;
   padding: 0;
@@ -24,7 +26,6 @@ export default {
   cursor: pointer;
   font-family: sans-serif;
 }
-
 
 .button .shadow {
   position: absolute;
@@ -37,7 +38,6 @@ export default {
   transform: translateY(2px);
   transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
-
 
 .button .edge {
   position: absolute;
@@ -55,21 +55,19 @@ export default {
   );
 }
 
-
 .button .front {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 28px;
-  font-size: 1.25rem;
+  padding: 8px 24px;
+  font-size: 1rem;
   color: white;
   background: hsl(217, 33%, 17%);
   border-radius: 8px;
   transform: translateY(-4px);
   transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
 }
-
 
 .button:hover .shadow {
   transform: translateY(4px);

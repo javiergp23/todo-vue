@@ -11,7 +11,6 @@ export default {
 
 <template>
   <main>
-    <h1 class="mb-4 mt-4 text-center">Bienvenido a la aplicación ToDo</h1>
     <FormLoginComponent />
   </main>
 </template>

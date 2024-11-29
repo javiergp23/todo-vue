@@ -12,9 +12,9 @@
 .formTitle{
     color: $color-fuente-oscuro;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 8px 0 8px 0;
+    margin-top: 15px 0 8px 0;
 }
 
 .formLogin-contenedor{
@@ -27,7 +27,7 @@
 .formLogin-contenedor__label{
     color: $color-fuente-oscuro;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .formLogin-contenedor__input{
@@ -39,11 +39,26 @@
     color: $color-fuente-blanco;
     border: none;
     font-size: 1.2rem;
-    width: 45%;
-    margin: auto; 
+    width: 45%; 
+    margin-left: 27%;
+}
+.formLogin-contenedor-select__option{
+    color: $color-fuente-oscuro;
+    font-weight: bold;
 }
 
 .formTextToRegister{
     font-size: 1.2rem;
     text-align: center;
+}
+
+.formSelectDate{
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.13);        
+    border: none;
+    color: $color-fuente-oscuro;
+    background-color: ffff;
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
 }

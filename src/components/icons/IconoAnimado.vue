@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="spinner">
+    <div class="spinner col-hidden">
     <div></div>
     <div></div>
     <div></div>
@@ -17,7 +17,7 @@
 
 <style scoped>
 .spinner {
-    margin: 30px;
+  margin: 20px;
   width: 44px;
   height: 44px;
   animation: spinner-y0fdc1 2s infinite ease;
