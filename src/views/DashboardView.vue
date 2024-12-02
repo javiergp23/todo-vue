@@ -1,4 +1,7 @@
 <script>
+import { onBeforeMount } from 'vue';
+import { useStore } from 'vuex';
+import { useRouter } from 'vue-router';
 import ButtonComponent from '@/components/ButtonComponent.vue'
 import ModalComponent from '@/components/ModalComponent.vue'
 
@@ -7,8 +10,23 @@ import ModalComponent from '@/components/ModalComponent.vue'
         components: {
             ButtonComponent,
             ModalComponent
+        },
+        setup() {
+            const store = useStore();
+            const router = useRouter();
+
+            // Comprobar si el usuario está autenticado antes de cargar el componente
+            onBeforeMount(() => {
+            if (!store.getters.isAuthenticated) {
+                // Si no está autenticado, redirigir al login
+                router.push('/');
+            }
+            });
+
+            return {};
         }
-    }
+    };
+    
 </script>
 
 <template>
