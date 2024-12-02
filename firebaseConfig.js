@@ -6,12 +6,12 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, si
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBTS3K39CDtp7tbMAkjiqF4QtUqlmJhAzQ",
-  authDomain: "login-test-4c4da.firebaseapp.com",
-  projectId: "login-test-4c4da",
-  storageBucket: "login-test-4c4da.firebasestorage.app",
-  messagingSenderId: "282824111111",
-  appId: "1:282824111111:web:b0fa5f07068ece6c5f26a2"
+  apiKey: ,
+  authDomain: ,
+  projectId: ,
+  storageBucket: ,
+  messagingSenderId: ,
+  appId: ""
 };
 
 // Initialize Firebase
